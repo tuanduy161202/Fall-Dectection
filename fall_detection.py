@@ -30,7 +30,7 @@ mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
 mpDraw = mp.solutions.drawing_utils
 
-filename = 'D:/video-fall-detection-master/queda.mp4'
+filename = 'queda.mp4'
 cap = cv2.VideoCapture(filename)
 
 while True:
